@@ -42,6 +42,9 @@ ro.vendor.whitepoint_calibration_enable=false
 vendor.displayfeature.entry.enable=true
 vendor.displayfeature_hidl=true
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # Graphics
 ro.opengles.version=196610
 
