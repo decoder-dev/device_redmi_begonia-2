@@ -17,7 +17,6 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     debug.renderengine.backend=skiaglthreaded \
     debug.mtk_tflite.target_nnapi=29 \
     debug.sf.disable_backpressure=1 \
-    debug.sf.latch_unsignaled=1 \
     drm.service.enabled=true \
     init.userspace_reboot.is_supported=true \
     persist.adb.nonblocking_ffs=0 \
