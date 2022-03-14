@@ -14,6 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt \
     debug.mediatek.disp_decompress=1 \
     debug.mediatek.game_pq_enable=1 \
+    debug.renderengine.backend=skiaglthreaded \
     debug.mtk_tflite.target_nnapi=29 \
     debug.sf.disable_backpressure=1 \
     debug.sf.latch_unsignaled=1 \
