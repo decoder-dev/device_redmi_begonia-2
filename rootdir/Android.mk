@@ -75,6 +75,12 @@ LOCAL_REQUIRED_MODULES := fstab.mt6785_ramdisk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := disable-logging.sh
+LOCAL_SRC_FILES := bin/disable-logging.sh
+LOCAL_MODULE_CLASS := EXECUTABLES
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE       := fstab.mt6785_ramdisk
 LOCAL_MODULE_STEM  := fstab.mt6785
 LOCAL_MODULE_TAGS  := optional

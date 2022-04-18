@@ -253,6 +253,7 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     init.sensor_1_0.rc \
     fstab.mt6785 \
+    disable-loggin.sh \
     fstab.mt6785_ramdisk \
     ueventd.mt6785.rc
 
