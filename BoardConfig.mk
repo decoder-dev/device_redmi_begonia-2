@@ -132,6 +132,7 @@ ODM_MANIFEST_BEGONIA_FILES := $(DEVICE_PATH)/manifest_begonia.xml
 # Treble
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
 # Sepolicy
