@@ -89,7 +89,9 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     libdrm.vendor \
     libvulkan \
-    libfmq.vendor
+    libfmq.vendor \
+    libhwc2on1adapter \
+    libhwc2onfbadapter
 
 PRODUCT_PACKAGES += \
     disable_configstore
@@ -259,6 +261,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     $(LOCAL_PATH)/configs/power/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
     $(LOCAL_PATH)/configs/power/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml
+
+# MTK In-Call volumes adjusting service
+PRODUCT_PACKAGES += \
+    MtkInCallService
 
 # Ramdisk
 PRODUCT_PACKAGES += \

@@ -21,7 +21,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit some common Project Elixir stuffs.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-CUSTOM_BUILD_TYPE := OFFICIAL
+ELIXIR_BUILD_TYPE := OFFICIAL
+ELIXIR_MAINTAINERL := PiotrBurdzinski
 IS_PHONE := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false

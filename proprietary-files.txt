@@ -1,4 +1,4 @@
-# Unpinned blobs from begonia-user 11 RP1A.200720.011 V12.5.7.0.RGGMIXM release-keys
+# Unpinned blobs from begonia-user 11 RP1A.200720.011 V12.5.8.0.RGGMIXM release-keys
 
 # Audio
 vendor/etc/audio_param/AudioParamOptions.xml
@@ -701,6 +701,10 @@ vendor/lib64/libarcsoft_preview_deflicker.so
 # Camera-bin
 vendor/bin/hw/camerahalserver
 
+# Camera Buffer Fix
+vendor/lib64/libmtkcam_3rdparty.customer.so|cf7f79d0e8a1de1fc818b948553c261e1d35e1fc
+vendor/lib64/libmtkcam_featurepolicy.so|c1679591ed745f785ee2429ad448d4de0fcd07d0
+
 # Camera-configs
 vendor/etc/camera/CFR_para_T.bin
 vendor/etc/camera/CFR_para_UW.bin
@@ -994,7 +998,6 @@ vendor/lib64/libmtkcam.featurepipe.streaming.so
 vendor/lib64/libmtkcam.featurepipe.vsdof_util.so
 vendor/lib64/libmtkcam.logicalmodule.so
 vendor/lib64/libmtkcam_3rdparty.core.so
-vendor/lib64/libmtkcam_3rdparty.customer.so
 vendor/lib64/libmtkcam_3rdparty.mtk.so
 vendor/lib64/libmtkcam_3rdparty.so
 vendor/lib64/libmtkcam_3rdparty.vidhance.so
@@ -1006,7 +1009,6 @@ vendor/lib64/libmtkcam_device3_app.so
 vendor/lib64/libmtkcam_dpe.so
 vendor/lib64/libmtkcam_exif.so
 vendor/lib64/libmtkcam_fdvt.so
-vendor/lib64/libmtkcam_featurepolicy.so
 vendor/lib64/libmtkcam_fwkutils.so
 vendor/lib64/libmtkcam_grallocutils.so
 vendor/lib64/libmtkcam_hwnode.so
@@ -1118,7 +1120,7 @@ lib64/libmtkavenhancements.so
 lib64/libmtkperf_client.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
--priv-app/ImsService/ImsService.apk
+-priv-app/ImsService/ImsService.apk|819e8ea7be7f1423f6079fc25d7dd799b6614726
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
